@@ -1,5 +1,5 @@
-var ServerID = "498232176568041473"; 
-var ChannelID = "502623263000625162";
+var ServerID = "500591650507063296"; 
+var ChannelID = "500591650507063302";
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -38,19 +38,13 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if(message.content === '3'){
-        message.channel.send('#rep <@337629134371160065>')
+        message.channel.send('#rep <@306464381775118336>')
     }
 });
 
 client.on('message', message => {
      if(message.content === '4'){
         message.member.voiceChannel.join();
-    }
-});
-
-client.on('message', message => {
-	if(message.content === '5'){
-        message.channel.send('civil=3')
     }
 });
 
