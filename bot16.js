@@ -1,5 +1,5 @@
-var ServerID = "498232176568041473"; 
-var ChannelID = "502623298400550912";
+var ServerID = "500591650507063296"; 
+var ChannelID = "500591650507063302";
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -38,7 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if(message.content === '3'){
-        message.channel.send('#rep <@337629134371160065>')
+        message.channel.send('#rep <@306464381775118336>')
     }
 });
 
@@ -48,14 +48,15 @@ client.on('message', message => {
     }
 });
 
+
+
 client.on('message', message => {
-	if(message.content === '5'){
-        message.channel.send('civil=4')
-    }
+if(message.content.startsWith('4s')) {
+if(message.author.id !== "306464381775118336") return;
+var args = message.content.split(' ').slice(1).join(' ');
+message.channel.send(args);
+}
 });
-
-
-
 
 
 
