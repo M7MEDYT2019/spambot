@@ -43,7 +43,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-     if(message.content === '4'){
+     if(message.content === '5'){
         message.member.voiceChannel.join();
     }
 });
