@@ -8,3 +8,5 @@ worker15: node bot15.js
 worker16: node bot16.js
 worker17: node bot17.js
 worker18: node bot18.js
+worker19: node bot19.js
+worker20: node bot20.js
