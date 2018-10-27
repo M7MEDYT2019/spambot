@@ -62,4 +62,4 @@ message.channel.send(args);
 
 
 
-client.login(process.env.BOT_TOKEN11);
+client.login(process.env.BOT_TOKEN3);
