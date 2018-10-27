@@ -51,7 +51,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-if(message.content.startsWith('9s')) {
+if(message.content.startsWith('11s')) {
 if(message.author.id !== "306464381775118336") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
@@ -60,4 +60,4 @@ message.channel.send(args);
 
 
 
-client.login(process.env.BOT_TOKEN19);
+client.login(process.env.BOT_TOKEN11);
