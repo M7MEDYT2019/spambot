@@ -60,4 +60,4 @@ message.channel.send(args);
 
 
 
-client.login(process.env.BOT_TOKEN12);
+client.login(process.env.BOT_TOKEN4);
