@@ -51,8 +51,8 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-if(message.content.startsWith('8s')) {
-if(message.author.id !== "420637382644072451") return;
+if(message.content.startsWith('9s')) {
+if(message.author.id !== "306464381775118336") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
 }
